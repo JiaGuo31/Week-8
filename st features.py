@@ -12,4 +12,6 @@ st.text_input('Name', key='name')
 
 # assign a key to a button, you can condition code on a button's state by using its value in st.session_state
 st.button('Clear name', key='clear') 
-st.button('Streamlit!', key='streamlit')
+
+
+st.write("end")
